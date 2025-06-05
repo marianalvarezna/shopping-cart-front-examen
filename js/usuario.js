@@ -60,23 +60,6 @@ function getUsers() {
     });
 }
 
-/*function showInfoUser(userId) {
-    fetch("https://fakestoreapi.com/users/" + userId, {
-        method: "GET",
-        headers: {
-            "Content-type": "application/json"
-        },
-    })
-    .then(response => response.json())
-    .then(user => {
-        showModalUser(user);
-    })
-    .catch(() => {
-        document.getElementById('info').innerHTML = '<h3>No se encontró el usuario</h3>';
-    });
-}*/
-
-//
 function showInfoUser(userId) {
     fetch("https://fakestoreapi.com/users/" + userId, {
         method: "GET",
@@ -104,7 +87,6 @@ function showInfoUser(userId) {
             }
         })
 }
-//
 
 function showModalUser(user) {
     const modalUser = `

@@ -27,11 +27,11 @@ function getProducts(){
                     <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">title</th>
-                            <th scope="col">price</th>
-                            <th scope="col">description</th>
-                            <th scope="col">category</th>
-                            <th scope="col">image</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Image</th>
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
